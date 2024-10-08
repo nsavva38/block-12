@@ -9,7 +9,7 @@
   <header>
     <div class="link-bar">
       <nav>
-        <div style="clear: both">
+        <!-- <div style="clear: both"> -->
           <h1 style="float: left">Nicholas Savva</h1>
           <h3 style="float: right"><a href="index.html">Home</a>
             <a href="about.html">About Me</a>
@@ -34,13 +34,19 @@
       <input type="text" id="email" name="email"><br>
       <label for="password">Password:</label><br>
       <input type="password" id="password" name="password"><br>
-      <label for="social-security">Social Security:</label><br>
-      <input type="text" id="social-security" name="social-security">
-      <br style="line-height:2;">
+
+      <label for="message">Message:</label><br>
+
+      <textarea id="message" name="message" rows="10" cols="50">
+      
+      </textarea>
+
+      <button type="submit">Submit</button>
 
     </form>
+    <!-- button moved out of form so it can function -->
     <a href="./index.html">
-      <button>Submit</button>
+      <button>Back to Home</button>
     </a>
   </main>
 

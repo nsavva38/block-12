@@ -14,9 +14,6 @@ nav{
   background-color: rgb(36, 35, 35);
 }
 
-/* h1{
-  padding-bottom: 10%;
-} */
 
 img{
   width: 20%;
@@ -28,31 +25,20 @@ h2{
   margin: 5%;
 }
 
-/* h3{
-   background-color: rgb(36, 35, 35) ; 
-} */
 main{
   background-color: rgb(36, 35, 35);
   margin: 7%;
 }
 
-/* p{
-  display: flex;
-} */
-
-/* header{
-  display: flex;
-} */
-
 #home-page-text{
   margin: 5%;
-  padding: 5%;
 }
 
 .main-text{
   text-align: center;
   font-size: 150%;
   border-radius: 15%;
+  padding: 1%;
 }
 
 .link-bar{
