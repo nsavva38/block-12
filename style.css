@@ -18,8 +18,13 @@ nav{
   padding-bottom: 10%;
 } */
 
+img{
+  width: 20%;
+}
+
 h2{
   text-align: center;
+  font-size: 250%;
   margin: 5%;
 }
 
@@ -31,9 +36,12 @@ main{
   margin: 7%;
 }
 
+/* p{
+  display: flex;
+} */
+
 /* header{
-  height: 100%;
-  color: rgb(36, 35, 35);
+  display: flex;
 } */
 
 #home-page-text{
@@ -54,6 +62,44 @@ main{
   padding: 1%;
   border-radius: 5%;
 }
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: large;
+  width: 20%;
+  margin: 7%;
+  
+}
+
+.left {
+  /* display: flex; */
+  align-items: left; 
+  /* flex-direction: column; */
+  text-align: center; 
+}
+
+.left img {
+  margin-right: 10px;
+}
+
+
+#center {
+  display: flex;
+  align-items: center; 
+  flex-direction: column-reverse;
+  text-align: center; 
+}
+/*
+.center img {
+  margin-left: 10px;
+} */
 
 /* .up{
   display: flex;
