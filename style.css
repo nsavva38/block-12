@@ -83,6 +83,7 @@ main{
 
 .hamburger{
   display: none;
+  
 }
 @media (max-width: 800px) {
   body {
@@ -94,5 +95,7 @@ main{
   }
   .hamburger {
     display: initial;
+    width: 1em;
+    margin: 1%
   }
 }
